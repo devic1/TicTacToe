@@ -1,10 +1,10 @@
 import sys
 import random
 
-
+print("\n\n")
 print("\t\tTIC-TAC-TOE AI\t\t\n")
 board = {1:'_',2:'_',3:'_',4:'_',5:'_',6:'_',7:'_',8:'_',9:'_'}
-player = input("choose a player : ")
+player = input("choose a player : ").upper()
 if player == 'X':
     bot = 'O'
 else:
